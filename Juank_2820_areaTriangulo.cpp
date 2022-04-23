@@ -1,12 +1,16 @@
-#include<iostream>
-#include<math.h>
+#include <iostream>
 using namespace std;
+float base, altura, resultado;
 
 int main(){
-    int radio, resultado;
-    cout<<"AREA DE UN CIRCULO\n\nIngrese el radio del circulo:";
-    cin>>radio;
-    resultado=M_PI*radio;
-    cout<<"El area del circulo es: "<<resultado;
+
+cout << "Ingrese la base del triangulo: ";
+cin >> base;
+cout << "Ingrese la altura del triangulo: ";
+cin >> altura;
+
+resultado=(base*altura)/2; // Formula matematica para calcular el area del triangulo.
+
+cout << "El area de su triangulo es: " << resultado << endl;
 
 }
